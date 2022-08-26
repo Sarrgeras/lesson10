@@ -29,5 +29,11 @@ public class Main {
         FilesRunner filesRunner = new FilesRunner();
 
         filesRunner.runFiles();
+
+        ScannerRunner scannerRunner = new ScannerRunner();
+
+        scannerRunner.runScanner();
+
+        scannerRunner.runFileScanner();
     }
 }
